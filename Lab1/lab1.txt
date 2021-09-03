@@ -27,4 +27,4 @@ Q7. Using POST request method we were able to send data and we were able to add 
 
 
 
-Q8
+Q8. https://github.com/MPARASHA/CMPUT404Labs/blob/master/Lab1/script.py
