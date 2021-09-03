@@ -1,0 +1,30 @@
+Name: Manu Parashar
+CCID: mparasha
+
+Q1. https://github.com/mparasha
+
+Q2. 2.25.1
+
+Q3. 2.26.0
+
+Q4. Version difference 2.25.1 and 2.26.0
+
+Q5. We get 301 status code. 301 means the URL of the requested resource has been changed permanently. 
+To get a 200 status code the request needs to be successful. We can get 200 status code by using the url http://www.google.com/ .
+
+
+Q6. with both -i (without redirect) and -iL (with redirect) we get status code 418 (I'm a teapot). 
+Using curl on http://www.google.com/teapot, we get the html document of that page.
+
+Q7. Using POST request method we were able to send data and we were able to add form fields. This chane looks like this in HTML:
+
+    <DL>
+    <DT>X: <i>&lt;type 'instance'&gt;</i>
+    <DD>MiniFieldStorage('X', 'Y')
+    </DL>
+
+    Post method is useful in sending data in requests like forms.
+
+
+
+Q8
