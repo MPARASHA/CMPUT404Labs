@@ -26,4 +26,4 @@ Q7. Using POST request method we were able to send data and we were able to add 
     Post method is useful in sending data in requests like forms.
 
 
-Q8. https://github.com/MPARASHA/CMPUT404Labs/blob/master/Lab1/script.py
+Q8. https://raw.githubusercontent.com/MPARASHA/CMPUT404Labs/master/Lab1/script.py
