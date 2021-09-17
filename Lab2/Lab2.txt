@@ -11,14 +11,21 @@ Q2. Server sockets use bind() to be bounded to the host and a port. The client s
 
 Q3. Server socket we used in echo_server.py set the SOL_SOCKET option of SO_REUSEADDR to 1. This will forcibly bind sockets 
 already in use. For AF_INET sockets this means that a socket may bind, except when there is an active listening socket bound to the address.
-(https://man7.org/linux/man-pages/man7/socket.7.html)
+(1)
 
 
 Q4. We could get the client's ip and port. For example: Connected by ('127.0.0.1', 59834). In this example the IP is localhost and 
 port is 59834.
 
 
-Q5.
+Q5. After executing the command 'echo "Foobar" | nc localhost 8001' and printing the result of recv(). The server outputed:
+b'Foobar\r\n'
+The return value is a bytes object representing the data received. 
+(2)
 
 
-Q6.
+Q6. 
+
+
+References: 1. https://man7.org/linux/man-pages/man7/socket.7.html
+            2. https://docs.python.org/3/library/socket.html
