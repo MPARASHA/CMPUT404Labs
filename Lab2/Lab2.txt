@@ -1,0 +1,21 @@
+Name: Manu Parashar
+CCID: mparasha
+
+Q1. To specify a TCP socket in python we make use of the socket module. While creating the socket we specify the address family
+and the socket type. In client.py we used AF_INET address family which represents IPv4 Addresses. Socket type for TCP is SOCK_STREAM.
+After this we use the host's ip and port number to make a TCP connection.
+
+
+Q2.
+
+
+Q3.
+
+
+Q4.
+
+
+Q5.
+
+
+Q6.
