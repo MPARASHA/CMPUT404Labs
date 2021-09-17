@@ -6,7 +6,10 @@ and the socket type. In client.py we used AF_INET address family which represent
 After this we use the host's ip and port number to make a TCP connection.
 
 
-Q2.
+Q2. Server sockets use bind() to be bounded to the host and a port. The client sockets connect to the sever sockets using connect().
+In addition, server socket we used in echo_server.py set the SOL_SOCKET option of SO_REUSEADDR to 1. This will forcibly bind sockets 
+already in use. For AF_INET sockets this means that a socket may bind, except when there is an active listening socket bound to the address.
+(https://man7.org/linux/man-pages/man7/socket.7.html)
 
 
 Q3.
