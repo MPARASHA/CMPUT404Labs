@@ -1,0 +1,37 @@
+Name: Manu Parashar
+CCID: mparasha
+
+Q1. https://github.com/MPARASHA/Django-Lab
+
+Q2. The install worked successfully! Congratulations!
+
+Q3. at /polls it shows Hello, world. You're at the polls index. 
+    at / it shows error Page not found (404)
+
+Q4. Django migrations update's the database schema by notifying it about new models/ updates in 
+    the existing ones. Migrations are like the git for django database. They help in keeping track 
+    of the changes in the database schema.
+
+Q5. After logging into the django administration site. I see two sets of models. One is for AUTHENTICATION AND AUTHORIZATION,
+    and the other one is for our polls application. I see the Questions and Choices models. 
+    There are buttons to add and modify these models.
+
+Q6. /polls/38/ You're looking at question 38.
+    /polls/38/results You're looking at the results of question 38.
+    /polls/38/vote You're voting on question 38.
+
+    it gives error Page not found (404) when you don't give a number.
+    changing <int:question_id> to <str:question_id> will allow accepting strings
+
+Q7. Hardcoding url's makes it hard to maintain and update the app. Every small change in the
+    url schema means every hardcoded url needs to be changed.
+
+Q8. Generic views help avoid writing repetitive code for common situations. They provide already implemented
+    set of views like Detail, List etc which are commonly used in creating web apps. 
+
+    You should use generic views as a boilerplate code to avoid writing repetitive code for similar views.
+    You should not use generic view if the view you need very specific and creating them by extending generic views is cumbersome.
+
+References:
+    https://docs.djangoproject.com/en/3.2/topics/migrations/#:~:text=Migrations%20are%20Django's%20way%20of,problems%20you%20might%20run%20into.
+    https://docs.djangoproject.com/en/3.2/topics/class-based-views/generic-display/
