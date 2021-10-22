@@ -1,0 +1,12 @@
+Name: Manu Parashar
+CCID: mparasha
+
+Q1. Advantages:
+    * Ease of creation and maintenance.
+    * More secure since clients don't have a gateway to the backend.
+
+    Disadvantages:
+    * Real-time user experience not possible.
+    * No user-generated content like comments and likes on social media.
+
+Q2. https://mparasha.github.io/
