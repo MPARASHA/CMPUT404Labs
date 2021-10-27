@@ -1,0 +1,37 @@
+Name: Manu Parashar
+CCID: mparasha
+
+Q0. https://github.com/MPARASHA/cmput404lab7.git
+
+Q1. Django is a python framework for full-stack web development, while 
+    Flask is a light-weight micro web framework written in Python focused on API. 
+    Django provides features like admin panel,  authentication middleware and ORM support which are not avaiable for Flask users.
+
+Q2. REST is an abbreviation for representational state transfer.
+    For something to be RESTful it needs to follow REST constraints.
+
+Q3. CRUD is an abbreviation for Create, Read, Update, Delete. 
+    POST, GET, PUT, DELETE are the corresponding HTTP methods.
+
+Q4. From CMPUT 404 Slides:
+    1XX — Informational codes, ex: 100 Continue
+    2XX — Success codes, ex: 200 OK
+    3XX — Redirection codes, ex: 301 Moved Permanently
+    4XX — Client Error codes, ex: 404 Not Found
+    5XX — Server Error codes, ex: 500 Internal Server Error
+
+Q5. XSS attack or Cross-site scripting is a type of security vulnerability 
+    which allows for attackers to inject client-side javascript into web pages to be viewed by other users (1).
+    An example of XSS vulnerability could be from a website's search or contact form. 
+    An attacker could store a malicious script in the data sent through them (2).
+
+Q6. CORS is an abbreviation for Cross-Origin Resource Sharing. 
+    It is a mechanism that loosens the restrictions posed by same origin policy 
+    and allows for scripts running on a browser to interact with resources on an external origin. 
+    This mechanism is blocked by default. 
+    But we can enable it if we are in a situation where we want to run scripts that interact with external resources.
+        
+
+References:
+1) https://en.wikipedia.org/wiki/Cross-site_scripting
+2) https://sucuri.net/guides/what-is-cross-site-scripting/
